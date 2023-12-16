@@ -1,0 +1,49 @@
+body {
+background-color: black;
+font-family: "Space Grotesk",sans-serif;
+color: white;
+}
+
+.header {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+
+}
+
+.navbar-brand {
+    font-size: 32px;
+}
+
+.nav-items{
+    display: flex;
+list-style: none;
+gap:25px;
+
+}
+
+.intro-header {
+    color: white;
+font-size: 88px;
+margin-left: 200px;
+
+}
+
+.intro-description {
+    color: gray;
+    margin-left: 200px;
+}
+
+.underline{
+    text-decoration: underline;
+    text-decoration-color: orange;
+}
+
+.contact{
+    display: flex;
+    justify-content: start;
+    margin-left: 200px;
+    text-decoration: underline;
+    text-decoration-color: orange;
+}
+
